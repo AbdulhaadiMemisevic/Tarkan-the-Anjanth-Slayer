@@ -1,2 +1,2 @@
 # assignment comp sci haadi
-https://anjanathaadi.github.io/Tarkan The Anjanath Slayer/
+https://anjanathaadi.github.io/TarkanTheAnjanthSlayer
