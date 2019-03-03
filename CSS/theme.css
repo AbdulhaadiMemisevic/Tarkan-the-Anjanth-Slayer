@@ -81,8 +81,21 @@ p {
 
 img {
 	position: absolute;
+	top: 30%;
+	left: 60%;
+	color: white;
+}
+
+h2 {
+	position:GO FOLLOW;
 	top: 32%;
 	left: 60%;
 	color: white;
 }
 
+h3 {
+	position:absolute;
+	top: 32%;
+	left: 43%;
+	color: white;
+}
