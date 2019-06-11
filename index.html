@@ -1,19 +1,18 @@
-
 <!DOCTYPE html>
 <html>
 <head>
 	<link rel="stylesheet" type="text/CSS" href="CSS/theme.css">
+	<script src="JS/main.js"></script>
 	<title>Haadi's Tech Portfolio</title>
 </head>
 <main>
 <body>
 
 
-	<h1>Home</h1>
 
 	<header>
 		<div class="container">
-			<img src="">
+			<img class="anjanathmonster" src="IMAGES/anjanath monster.png">
 			<nav>
 				<ul>
 					<li><a href="index.html">Home</a></li>
@@ -25,12 +24,30 @@
 		</div>
 	</header>
 </main>
-
-<h3>Welcome to the website all about me</>
+<h1 class ="HOME_TITLE">HOME OF THE ANJANATH</h1>
+<h3>Welcome to the website all about me</h3>
 
 </body>
 
-<footer> Main Page</footer>
+
+<div>
+	<h2>Encryption device</h2>
+	<label>Encrypter</label>
+<input id="encryption"type="text" name="Encrypter" placeholder="type a message" >
+<button id="buttn_encrypt" onclick="_encryption()">Click to encrypt</button> <br>
+<textarea id="newcontent" name="Encrypted message"></textarea>
+</div>
+<hr>
+<div>
+	<label>Decrypter</label>
+<input id="decryption" type="text" name="Decrypter" placeholder="paste encrypted text here">
+<button id="buttn_encrypt"onclick="_decryption()">Click to decrypt</button> <br>
+<textarea  id="oldcontent"name="decrypted message"></textarea>
+
+
+</div>
+
+<footer> The website all about me </footer>
 
 </html>
 <!DOCTYPE html>
